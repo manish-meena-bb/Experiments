@@ -1,0 +1,15 @@
+name: Linting
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: hello
+      run: echo "hello there"
+    - name: install
+      run: npm install
