@@ -6,7 +6,7 @@
   "scripts": {
    
     "pretify": "prettier --write .",
-    "lint": "lint-staged",
+    "lint": "lint-staged"
    
   },
   "author": "",
@@ -16,7 +16,7 @@
     "eslint": "^8.15.0",
    
     "prettier": "^2.0.5",
-    "prettier-eslint": "^14.0.0",
+    "prettier-eslint": "^14.0.0"
    
   }
 }
