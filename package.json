@@ -6,7 +6,7 @@
   "scripts": {
    
     "pretify": "prettier --write .",
-    "lint": "lint-staged"
+    "lint": "eslint *.js"
    
   },
   "author": "",
