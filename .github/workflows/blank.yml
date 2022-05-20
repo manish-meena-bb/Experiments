@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: hello
-      run: echo "hello there"
     - name: install
       run: npm install
+    - name: eslint
+      run: npm run lint
